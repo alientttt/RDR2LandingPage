@@ -30,3 +30,12 @@ header nav a {
   color: white;
   letter-spacing:  0.1rem; /* untuk memberi jarak antar huruf */
 }
+
+/* Slider */
+.slider {
+  width: 100vw; /* supaya lebarnya penuh */
+  height: 100vh; /* tingginya juga akan memenuhi layar */
+  overflow: hidden; /* ssupaya mengatasi bablas */
+  margin-top: -50px; /* supaya img nya naik ke atas ,nav nya menyatu dengan img */
+  position: relative; /* nanti ada elemen yang mau dibikin absolute ke slider ini */
+}
