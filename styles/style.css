@@ -1,0 +1,32 @@
+body {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  background-color: black;
+  color: #ffff;
+}
+
+header {
+  width: 1200px;
+  max-width: 80%;
+  margin: auto; /* supaya ditengah dan ada jarak di kanan kirinya */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative; /* supaya posisi dia di depan dan tidak ketumpuk di belakang */
+  z-index: 999;
+}
+
+header nav {
+  display: flex;
+  gap: 2rem;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing:  0.1rem; /* untuk memberi jarak antar huruf */
+}
