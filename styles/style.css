@@ -341,7 +341,7 @@ header nav a {
   -webkit-animation: shrinkImage 0.5s linear 1 forwards;
 }
 
-@keyframes identifier {
+@keyframes shrinkImage {
   to {
     width: 150px;
     height: 220px;
