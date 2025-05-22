@@ -79,6 +79,60 @@ header nav a {
   margin-bottom: 0.6rem;
 }
 
-.slider .list .item .detail {
-  
+.slider .list .item .detail .name {
+  font-weight: 900;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  line-height: 3.5rem;
+  margin-bottom: 0.8rem;
+  background: linear-gradient(#ef745c,#34073d); /* ini untuk combine warna gradasi (untuk combine warna nya bisa nyontek di web lain unutk referensi */
+  background-clip: text; /* nanti warna gradasi di atas akan menempel pada textnya gitu bukan pada background textnya */
+  color: transparent; /* ini masih bagian unutk menjadikan textnya menempel dengan wara gradasinya */
+  text-shadow: none; /* ini juga supaya tidak ada shadow di text ini */
+}
+
+.slider .list .item .detail figure {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem
+}
+
+.slider .list .item .detail figure img {
+  width: 2.4rem;
+}
+
+.slider .list .item .detail figure figcaption {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.slider .list .item .detail .desc {
+  margin-top: 1rem;
+  font-weight: 100;
+  font-size: 1rem;
+  max-width: 40rem;
+}
+
+.slider .list .item .detail .more {
+  display: inline-block;/*supayabisadiaturukurandanpsosisinya*/
+  margin-top: 1.4rem;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  padding: 0.6rem 0.8rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  text-shadow: none;
+  font-size: 1rem;
+}
+
+.slider .list .item .detail .more:hover {
+  color: white;
+  background-color: #ef745c;
 }
